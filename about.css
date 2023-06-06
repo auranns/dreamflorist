@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Karma&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F07F91;
+}
+/* header start*/
+#headerabout{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #F07F91;
+    font-family: 'Kanit', sans-serif;
+}
+#headerabout .logoputih {
+    width: 250px;
+    margin-left: 50px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;    
+    transition: 0.30 ease;
+    color: #fff;
+
+}
+#navbar li a:hover,
+#navbar li a.active{
+ color: #923a49;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #923a49;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+.section{
+    background-color: #F07F91;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px;
+}
+.container{
+    width: 80%;
+    display:block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 54%;
+}
+.container .image{
+    float: right;
+    width: 75%;
+    margin-top: -350px;
+}
+.container .image img{
+    width: 100%;
+    height: auto;
+    margin-left: 591px;
+}
+.content-section .title h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    height: 150;
+    font-family: 'kanit';
+    margin-left: 10px;
+    color: #fff;
+}
+.content-section .content h3{
+    margin-top: 0px;
+    font-family: 'kanit';
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2.5rem;
+    margin-left: -80;
+    margin-top: 30px;
+    color: #ffff;
+}
+.wrapper img{
+    height: 400px;
+    width: 400px;
+    margin-top: -80px;
+    margin-right: 200px;
+
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-top: -70px;
+}
+.kolom p{
+    font-family: 'kanit';
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+    margin-left: -100px;
+    margin-top: 90px;
+    margin-right: 0;
+}
+.peta img{
+    height: 396px;
+    width: 801px;
+    margin-left: 83px;
+    margin-top: -10px;
+}
+.what{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.what p{
+    font-size: 50px;
+    font-family: 'kanit';
+    color: #fff;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+section .lokasi {
+    background-color: #F07F91;
+}
+.lokasi .content {
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    margin-left: 220px;
+    background: url(img/lokasi.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ .lokasi .content h4 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 500px;
+}
+.container-logoo{
+    margin-top: 90px;
+    margin-left: 300px;
+    width: 10%;
+}
+section .container-logoo{
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: -100px;
+}
